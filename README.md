@@ -19,7 +19,7 @@ cp .env.example .env
 2 - Run your containers:
 
 ```shell
-docker-compose up -d nginx mysql phpmyadmin redis workspace 
+docker-compose up -d redis redis-webui workspace 
 
 ```
 
